@@ -12,13 +12,13 @@
     <table class="form-table">     
         <tr valign="top">
             <th scope="row">Điện thoại</th>
-            <td><input placeholder="0123 456 789" type="text" name="ld_phone" value="<?php echo get_option('ld_phone'); ?>" /></td>
+            <td><input placeholder="0123 456 789" type="text" name="ld_phone" value="<?php esc_html_e( get_option('ld_phone'), 'lhn_adm' ); ?>" /></td>
         </tr>         
         <tr valign="top">
             <th scope="row">Zalo</th>
             <td>
                 <label for="ld_zalo">
-                    <input id="ld_zalo" class="my-color-field" name="ld_zalo" type="text" value="<?php echo get_option('ld_zalo'); ?>" />
+                    <input id="ld_zalo" class="my-color-field" name="ld_zalo" type="text" value="<?php esc_html_e( get_option('ld_zalo'), 'lhn_adm' ); ?>" />
                 </label>
             </td>
         </tr>
@@ -26,7 +26,7 @@
             <th scope="row">Facebook</th>
             <td>
                 <label for="ld_facebook">
-                    <input id="ld_facebook" class="my-color-field" name="ld_facebook" type="text" value="<?php echo get_option('ld_facebook'); ?>" />
+                    <input id="ld_facebook" class="my-color-field" name="ld_facebook" type="text" value="<?php esc_html_e( get_option('ld_facebook'), 'lhn_adm' ); ?>" />
                 </label>
             </td>
         </tr>
@@ -34,7 +34,7 @@
             <th scope="row" valign="top">Messenger</th>
             <td>
                 <label for="ld_messenger">
-                    <input id="ld_messenger" class="my-color-field" name="ld_messenger" type="text" value="<?php echo get_option('ld_messenger'); ?>" />
+                    <input id="ld_messenger" class="my-color-field" name="ld_messenger" type="text" value="<?php esc_html_e( get_option('ld_messenger'), 'lhn_adm' ); ?>" />
                 </label>
             </td>
         </tr>  
